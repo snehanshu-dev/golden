@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fafafa;
+}
+
+/* Top Bar */
+.top-bar {
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: cursive;
+}
+
+.navbar nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.login-btn {
+    border: 1px solid #000;
+    padding: 6px 14px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary {
+    background: #000;
+    color: #fff;
+}
+
+.secondary {
+    background: #fff;
+    border: 1px solid #000;
+}
+
+/* Hero Images */
+.hero-images {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+.hero-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Categories */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.category {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Promo Section */
+.promo {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.promo-box {
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.left {
+    background: url("images/hero1.jpg") center/cover;
+}
+
+.right {
+    background: url("images/hero2.jpg") center/cover;
+}
+
+.promo-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

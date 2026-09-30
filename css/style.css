@@ -1,0 +1,167 @@
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+.container{
+	height: auto;
+	width: 100%;
+	/*border: 3px solid red;*/
+	background-color: white;
+}
+.blackbar{
+	height: 50px;
+	width: 100%;
+	background-color: #35180d;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.blackbar_child{
+	height: 80%;
+	width: 100%;
+	/*border: solid white;*/
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.blackbar_text{
+	height: 80%;
+	width: 20%;
+	color: white;
+
+}
+
+.mainmenu{
+	height: 150px;
+	width: 100%;
+	/*border: 5px solid red;*/
+	background-color: white;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.logo{
+	height: 100px;
+	width: 100px;
+	padding: 40px 10px 10px 10px;
+	/*position: fixed;*/
+	/*border: 3px solid white;*/
+	/*margin-right: 400px;*/
+	/*border-radius: 50%;*/
+
+}
+.img{
+	height: 100%;
+	width: 100%;
+
+}
+.topcover{
+	height: 700px;
+	width: 100%;
+	/*border: 5px solid blue;*/
+	/*background-color: blue;*/
+	display: flex;
+	align-items: center;
+
+}
+.topcover_child{	
+	height: 90%;
+	width: 25%;
+	display: flex;
+	align-items: center;
+}
+.topcover_child2{
+	height: 90%;
+	width: 75%;
+
+}
+.img1{
+	height: 100%;
+	width: 100%;
+}
+.topcover2{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	/*border: solid orange;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	/*padding-top: 36px;*/
+}
+.topcover2_child{	
+	height: 270px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.child2{
+	height: 350px;
+	width: 300px;
+}
+.img2{
+	height: 100%;
+	width: 100%;
+	border-radius: 4%;
+}
+.name{
+	color: black;
+	font-size: 1.8rem;
+	padding-top: 20px;
+}
+.topcover3{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	/*border: solid orange;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	/*padding-top: 36px;*/
+}
+.topcover3_child{	
+	height: 270px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.child3{
+	height: 350px;
+	width: 300px;
+}
+.img3{
+	height: 100%;
+	width: 100%;
+	border-radius: 4%;
+}
+.topcover4{
+	height: 400px;
+	width: 100%;
+	border: solid red 5px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background: url("Images/wedding-gifts.jpg");
+}
+.topcover4_childleft{
+	height: 300px;
+	width: 600px;
+	border: solid green 3px;
+	background: url("goldwebsite/Images/wedding-gifts.jpg");
+
+}
+.topcover4_childright{
+	height: 300px;
+	width: 600px;
+	border: solid orange 3px;
+
+}
